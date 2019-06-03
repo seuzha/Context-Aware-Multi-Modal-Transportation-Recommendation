@@ -17,3 +17,5 @@ sklearn - 0.19.1
 
 tqdm - 4.31.3
 
+# Performance:
+1. achieve ~6.94 for stage1 competition
