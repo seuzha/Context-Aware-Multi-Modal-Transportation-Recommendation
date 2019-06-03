@@ -165,4 +165,3 @@ if __name__ == '__main__':
     # train_x, train_y, test_x, submit = read_data_files('../tmp/')
     pred_test = train_lgb(train_x, train_y, test_x)
     submit_result_12_class(submit, pred_test, 'lgb')
-    # submit_result_11_class(submit, pred_test, test_data_null, 'lgb')

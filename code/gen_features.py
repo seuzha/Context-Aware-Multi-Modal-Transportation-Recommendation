@@ -517,6 +517,10 @@ def gen_mode_embedding_2(data, profile_data, n_encoding = 10):
     return mode_embedding
 
 def gen_profile_mode_similarity(data, profile_data, mode_avail_list):
+    '''Note that the hidden dimension may not be consistent in this approach, which may not help
+        too much on the prediction.
+        Should remove it.
+    '''
     print('generating profile-mode similarity score...')
     n_encoding = 10
 
